@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+gem 'httparty', '~> 0.13.7'
+gem "dish", require: "dish/ext"

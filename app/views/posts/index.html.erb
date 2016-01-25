@@ -1,0 +1,4 @@
+<% @posts.each do |post| %>
+	<p><%= link_to post.title, remove_json(post.url) %></p>
+	<p><%= post.description %></p>
+<% end %>
